@@ -8,11 +8,11 @@
 在使用了[一些服务器之后](https://wistbean.github.io/cloud-server.html)，我觉得 [vultr](https://www.vultr.com/?ref=7772384-4F) 的性价比超高，最低 $2.5/月 ，就可以拥有一台 1TB 月流量的服务器了，根本用不完。
 
 
-而且现在 [vultr](https://www.vultr.com/?ref=7772384-4F) 优惠力度很大，**充值 10 美元送 10 美元**。
+而且现在 [vultr](https://www.vultr.com/?ref=7772384-4F) 优惠力度很大，**充值 10 美元送 50 美元**。
 
 ## 注册vultr
 
-点击 [vultr官网](https://www.vultr.com/?ref=7772384-4F) 进行注册：
+点击 [vultr官网送 50 美元优惠](https://www.vultr.com/?ref=7772384-4F) 进行注册：
 
 ![注册vultr](https://wistbean.github.io/images/vultr-register.png)
 
