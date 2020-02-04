@@ -171,4 +171,29 @@ iPhone要下载的app需要在appstore下载，但是需要用美区账号才能
 - [搬瓦工快速手动搭建SS(Shadowsocks)服务器简明详细教程](https://wistbean.github.io/banwagong-ss.html)
 - [我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定](https://wistbean.github.io/cloud-server.html)
 
+# Q & A
+
+libsodium问题修复:
+
+```
+wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
+tar zxf LATEST.tar.gz
+cd libsodium*
+./configure
+make && make install
+ 
+# 修复关联
+echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
+ldconfig
+```
+
+如果 configure 及 make 失败，需要安装编译工具：
+```
+yum -y install gcc automake autoconf libtool make
+```
+
+如果没有 python
+```
+yum install python36
+```
 
