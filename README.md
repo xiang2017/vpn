@@ -197,3 +197,12 @@ yum -y install gcc automake autoconf libtool make
 yum install python36
 ```
 
+服务器搭好了，却连不上。
+
+- 因为服务器防火墙没关（或者没允许指定端口）
+```
+firewall-cmd --zone=public --add-port=80/tcp --permanent   //开放端口
+firewall-cmd --reload 
+firewall-cmd --list-port
+```
+可能需要重新开启 ss
