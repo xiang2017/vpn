@@ -205,4 +205,5 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent   //开放端口
 firewall-cmd --reload 
 firewall-cmd --list-port
 ```
+- [更多命令](https://www.linuxidc.com/Linux/2019-06/159104.htm)
 可能需要重新开启 ss
